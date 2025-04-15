@@ -30,7 +30,7 @@ const Courses = () => {
   ];
   return (
     <div className="m-5">
-      <div className="text-center" style={{ marginTop: "70px" }}>
+      <div className="text-center" style={{ marginTop: "150px" }}>
         <div className="about_title"># World Best Facilities Game</div>
         <div className="about_sub my-3">
           Bame Comes With Many Facilities Included <br></br> In Planet{" "}

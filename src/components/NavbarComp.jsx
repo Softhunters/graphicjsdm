@@ -8,10 +8,39 @@ import "./NavbarComp.css";
 // import { HiSearch } from "react-icons/hi";
 import { BsSearch } from "react-icons/bs";
 import { Link } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+
+ 
 const NavbarComp=()=> {
+//   const [scrollLength , setScrollLength]=useState(0);
+
+//   useEffect(()=>{
+//     setScrollLength(window.scrollY);
+// console.log("heyyyyyyyyyy",window.scrollY)
+//   },[window.scrollY])
+
+
+const [scrollLength, setScrollLength] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollLength(window.scrollY);
+      console.log("Scrolled to:", window.scrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Clean up on unmount
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []); // Only run once on mount
+
+
+
   return (
-    <Navbar expand="lg" className='my-3'   >
-      <Container fluid>
+    <Navbar expand="lg" className={`my-3  ${scrollLength<630?"fixed-top":""}`}   >
+      <Container fluid   >
         <Navbar.Brand href="#"  className='nav_text'>
           {/* Rtlabs */}
           <img src="/img/logo_1.png" alt="Logo" width={100} height={50} />
