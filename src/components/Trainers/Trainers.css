@@ -1,0 +1,245 @@
+.Trainers-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .carousel-container {
+    width: 100%;
+  }
+  
+  .carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Trainers-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+
+    
+  }
+  
+   
+  .carousel-item:hover .Trainers-img {
+    transform: scale(1.05);
+  }
+  
+   
+ 
+  
+  .play-btn .arrow {
+     color: #333; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700 !important;
+    
+
+  }
+  
+  /* Styling for carousel navigation arrows */
+  .react-multiple-carousel__arrow {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  
+  /* .react-multiple-carousel__arrow:hover {
+    background-color: var(--e--global-color-main);
+  } */
+  
+  /* Responsive Design */
+  @media (max-width: 576px) {
+    .carousel-item {
+      padding: 5px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-item {
+      padding: 5px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .carousel-container {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+  
+
+  .team-card{
+    text-align: center;
+  border:
+double 2px transparent;
+  border-radius:
+10px;
+background-image: linear-gradient(rgb(15, 28, 35), rgb(15, 28, 35)), linear-gradient(to right, rgb(69, 248, 130), rgb(255, 190, 24));
+/* background-image: linear-gradient(rgb(15, 28, 35), rgb(15, 28, 35)), linear-gradient(to right, rgb(69, 248, 130), rgb(255, 190, 24)); */
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  margin-bottom: 4px;
+  position: relative;
+  }
+
+  .team-card .team-card-corner1 {
+    position: absolute;
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    left: 0;
+    top: 0;
+    border-top: solid 17px #45F882;
+    border-left: solid 17px #45F882;
+    border-right:
+  solid 17px transparent;
+    border-bottom:
+  solid 17px transparent;
+    z-index: 1;
+    border-radius:
+  8px 0 0 0;
+  }
+
+
+  .team-card .team-card-corner.team-card-corner2 {
+    right: 0;
+    left: auto;
+    border-right: solid 17px #FFBE18;
+    border-left:
+  solid 17px transparent;
+    border-top: solid 17px #FFBE18;
+    border-radius:
+  0 8px 0 0;
+  }
+
+
+  .team-card .team-card-corner.team-card-corner3 {
+    top: auto;
+    bottom: 0;
+     border-top:
+  solid 17px transparent;
+    border-radius:
+  0 0 0 8px;
+  }
+
+  .team-card .team-card-corner.team-card-corner4 {
+    right: 0;
+    left: auto;
+    top: auto;
+    bottom: 0;
+    border-right: solid 17px #FFBE18;
+    border-left:
+  solid 17px transparent;
+    border-bottom: solid 17px #FFBE18;
+    border-top:
+  solid 17px transparent;
+    border-radius:
+  0 0 8px 0;
+  }
+
+  .team-card .team-card-corner {
+    position: absolute;
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    
+    z-index: 1;
+   
+  }
+
+  .team-card .img-wrap {
+    position: relative;
+    border-radius:
+  10px;
+    border:
+  double 4px transparent;
+  background-image: linear-gradient(rgb(15, 28, 35), rgb(15, 28, 35)), linear-gradient(to right, rgb(69, 248, 130), rgb(255, 190, 24));
+  background-origin: border-box;
+    background-clip: content-box, border-box;
+    margin:
+  7px;
+  }
+
+   
+
+  .th-team .team-img {
+    position: relative;
+    overflow:
+  hidden;
+  }
+   
+.team-card .team-img img {
+  width: 100%;
+  border-radius:
+10px;
+}
+
+
+.team-card .img-wrap .game-logo {
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    transition: 0.4s;
+    max-width: 100%;
+  height: auto;
+  }
+
+
+  .team-card .team-card-content {
+    display: inline-block;
+  left: 50%;
+  bottom: -7px;
+  transform: translate(-50%, 0);
+  position: absolute;
+
+  background: linear-gradient(to right, rgb(69, 248, 130), rgb(255, 190, 24) );
+  border-radius:
+30px;
+  padding:
+4px;
+width: max-content;
+  }
+
+
+  .team-card .box-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin:
+  0px;
+    display: inline-block;
+    background-color: #0B0E13;
+    border-radius:
+  30px;
+  line-height: 1.417;
+  font-family: 'Rajdhani', sans-serif;
+  }
+
+  .team-card .box-title a {
+    color: #ffffff;
+    padding:
+  1px 26px;
+    display: inline-block;
+    box-shadow: none;
+  text-decoration:
+none;
+transition:
+all ease 0.4s;
+
+  }
+
+
+  .react-multi-carousel-item{
+    /* width: 100% !important; */
+    /* height: 400px; */
+    /* width: 278px !important; */
+    margin: 5px;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 60px;
+   }

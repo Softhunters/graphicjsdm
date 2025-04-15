@@ -1,0 +1,17 @@
+.nav_text{
+    color:white !important;
+    font-family: var( --e-global-typography-520c191-font-family ), Sans-serif;
+  font-size: var( --e-global-typography-520c191-font-size );
+  font-weight: var( --e-global-typography-520c191-font-weight );
+  line-height: var( --e-global-typography-520c191-line-height );
+}
+
+.nav_text:hover , .nav_text:focus , .nav_text:active{ 
+    color: var(--e--global-color-main) !important;
+}
+
+
+.navbar-toggler {
+  /* color:#ffffff !important; */
+  background-color: white;
+}

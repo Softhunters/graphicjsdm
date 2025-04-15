@@ -1,0 +1,416 @@
+/* .exp_img{
+    border-radius: 50px;
+     
+    object-fit: cover;
+}
+
+.exp_content{
+    font-family: "Poppins", sans-serif;
+  margin:
+0 0 18px 0;
+    margin-bottom: 18px;
+  color: rgb(150, 158, 178);
+  line-height: 1.75;
+}
+
+
+.exp_name{
+    color:#ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    display: flex !important;
+    justify-content: space-between !important;
+    text-transform: uppercase;
+    width: 100%;
+    
+
+}
+
+.progress_section{
+    height: 3px;
+    background-color: black !important;
+    color:var(--e--global-color-main) !important;
+ 
+}
+
+.progress_section>.progress-bar{
+    background-color: var(--e--global-color-main);
+}
+
+.about-wrap3{
+  position: relative;
+}
+
+.about-wrap3 .about-tag {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+  
+    transform: translate(-50%, -50%);
+    height: 248px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .about-wrap3 .about-tag .about-experience-tag {
+     position: relative;
+  }
+
+  .about-experience-tag {
+    background: #0B0E13;
+    display: inline-block;
+    height: 248px;
+    width: 248px;
+    border-radius:
+  50%;
+     font-size: 20px;
+    font-weight: 600;
+    font-family: 'Rajdhani', sans-serif;
+    color: #45F882;
+    line-height: 12px;
+    text-align: center;
+    animation:
+  spin 10s infinite alternate-reverse;
+  }
+
+  .about-experience-tag::before {
+    content: '';
+    position: absolute;
+    background:
+transparent;
+  border: 1px solid #45F882;
+  transform: translate(-50%, -50%);
+  border-radius:50%;
+
+  }
+
+  .elementor ::before {
+    box-sizing: border-box;
+  }
+
+  .about-experience-tag {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--title-font);
+    color: #45F882;
+    line-height: 12px;
+    text-align: center;
+    
+  }
+
+  .about-experience-tag span {
+    --rotate-letter: 12deg;
+    height: 85px;
+    position: absolute;
+    width: 20px;
+    left: 44%;
+    top: 19px;
+    transform-origin: bottom center;
+    transform: rotate(12deg);
+  }
+
+  .about-experience-tag::after {
+    height: calc(100% - 40px);
+    width: calc(100% - 40px);
+  }
+
+  .about-experience-tag::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background:
+  transparent;
+    border: 1px solid #45F882;
+    transform: translate(-50%, -50%);
+  border-radius:
+50%;
+  }
+
+  .about-wrap3 .about-tag .about-tag-icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+   .about-experience-tag span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0 -110px; 
+    font-size: 16px;
+  }
+  
+  .char1 { transform: rotate(0deg); }
+.char2 { transform: rotate(15deg); }
+.char3 { transform: rotate(30deg); }
+.char4 { transform: rotate(45deg); }
+  */
+
+
+  /* :root {
+    --e--global-color-main: #45f882;
+  }
+  
+  .about-wrap3 {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    background-color: #0b0e13;
+    color: #ffffff;
+    overflow: hidden;
+  }
+  
+  .about_title {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--e--global-color-main);
+  }
+  
+  .about_sub {
+    font-size: 20px;
+    font-weight: 500;
+    color: #cccccc;
+  }
+  
+  .exp_img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    object-fit: cover;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .about-tag {
+    position: absolute;
+    top: 50%;
+     transform: translate(-50%, -50%);
+
+  }
+  
+  .about-experience-tag {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+     border: 2px solid #45f882;
+    animation: spin 20s linear infinite;
+    background-color:#0f1c23;
+  }
+  
+  .about-experience-tag span {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform-origin: center 120px;
+    font-size: 14px;
+    font-weight: bold;
+    color:#45f882;
+    font-family: "Rajdhani", sans-serif;
+  }
+  
+  .about-tag-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #45f882;
+    padding: 20%;
+    border-radius: 50%;
+  }
+  
+  .about-tag-icon img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+   */
+
+
+   :root {
+    --e--global-color-main: #45f882;
+  }
+  
+  .about-wrap3 {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    background-color: #0b0e13;
+    /* color: #ffffff; */
+    color:"#969EB2";
+    overflow: hidden;
+  }
+  
+  /* .about_title {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--e--global-color-main);
+  }
+   */
+  /* .about_sub {
+    font-size: 20px;
+    font-weight: 500;
+    color: #cccccc;
+  } */
+  
+  .exp_img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    object-fit: cover;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .about-tag {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-experience-tag {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid var(--e--global-color-main);
+    animation: spin 20s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b0e13;
+  }
+  
+  .about-experience-tag span {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform-origin: center 100px;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--e--global-color-main);
+    font-family: "Rajdhani", sans-serif;
+  }
+  
+  .about-tag-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+   .about-tag-icon img {
+    width: 100px;
+    height: 60px;
+  }
+   
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Media Queries for responsiveness */
+  
+  /* Mobile (smaller than 768px) */
+  @media (max-width: 767px) {
+    .about-wrap3 {
+      padding: 15px;
+    }
+  
+    /* .about_title {
+      font-size: 20px;
+    } */
+  
+    /* .about_sub {
+      font-size: 16px;
+    } */
+  
+    /* .about-experience-tag {
+      width: 180px;
+      height: 180px;
+    } */
+  
+    .about-experience-tag span {
+      font-size: 12px;
+    }
+  
+    .about-tag-icon img {
+      width: 90px;
+      height: 50px;
+    }
+  }
+  
+  /* Tablet (768px to 1024px) */
+  @media (max-width: 1024px) and (min-width: 768px) {
+    .about-wrap3 {
+      padding: 30px;
+    }
+  
+    /* .about_title {
+      font-size: 22px;
+    }
+  
+    .about_sub {
+      font-size: 18px;
+    } */
+  
+    .about-experience-tag {
+      width: 200px;
+      height: 200px;
+    }
+  
+    .about-experience-tag span {
+      font-size: 13px;
+    }
+  
+    /* .about-tag-icon img {
+      width: 45px;
+      height: 55px;
+    } */
+  }
+  
+  /* Large Desktop (1024px and up) */
+  @media (min-width: 1024px) {
+    .about-wrap3 {
+      padding: 40px;
+    }
+  
+    /* .about_title {
+      font-size: 24px;
+    } */
+  
+    /* .about_sub {
+      font-size: 20px;
+    } */
+  
+    /* .about-experience-tag {
+      width: 240px;
+      height: 240px;
+    } */
+  
+    .about-experience-tag span {
+      font-size: 14px;
+    }
+  
+    /* .about-tag-icon img {
+      width: 60px;
+      height: 60px;
+    } */
+  }
+  

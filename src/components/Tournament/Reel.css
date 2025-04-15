@@ -1,0 +1,52 @@
+/* .reel_name{
+    font-family: 'Rajdhani', sans-serif;
+       color: #e2f0fd;
+  text-transform: none;
+  font-weight: 700;
+  font-size: 30px;
+} */
+
+
+.reel-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .reel {
+    display: flex;
+    white-space: nowrap;
+    animation: scroll-right-to-left 30s linear infinite; /* Slow scrolling */
+  }
+  
+  .reel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    flex-shrink: 0;
+    margin-right: 20px;
+  }
+  
+  .reel-name {
+    /* font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    padding-left: 10px; */
+
+    font-family: 'Rajdhani', sans-serif;
+    color: #e2f0fd;
+text-transform: none;
+font-weight: 700;
+font-size: 30px;
+  }
+  
+  @keyframes scroll-right-to-left {
+    0% {
+      transform: translateX(100%); /* Start off-screen to the right */
+    }
+    100% {
+      transform: translateX(-100%); /* End off-screen to the left */
+    }
+  }
+  

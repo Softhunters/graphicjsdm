@@ -1,0 +1,27 @@
+.homi_title{
+    font-size: 24px;
+    line-height: 1.417;
+    color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.homi_desc{
+
+    font-size: 24px;
+    line-height: 1.75;
+    color: #969EB2;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: 'Rajdhani', sans-serif;
+
+}
+
+
+@media screen  and (max-width:400px){
+    
+    .home_about_content{
+    display: block !important;
+    }
+}
