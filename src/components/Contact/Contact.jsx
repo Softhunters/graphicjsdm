@@ -37,7 +37,7 @@ const Contact = () => {
     <div className="m-5 contact_main">
       <div
         className="text-center"
-        style={{ marginTop: "70px", marginBottom: "70px" }}
+        style={{ marginTop: "150px", marginBottom: "70px" }}
       >
         <div className="Contact_title"># Get In Touch</div>
         <div className="Contact_sub my-3">Contact Us & Meet Our Team</div>

@@ -55,7 +55,7 @@ const About = () => {
 
   return (
     <div className="m-5">
-      <div className="text-center" style={{ marginTop: "70px" }}>
+      <div className="text-center" style={{ marginTop: "150px" }}>
         <div className="about_title">
           # Welcome to The eSports & Gaming Site
         </div>

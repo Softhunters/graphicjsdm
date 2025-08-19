@@ -11,7 +11,18 @@
 }
 
 
+.navbar-toggler {.nav_text{
+    color: white !important;
+    font: var(--e-global-typography-520c191-font-family) var(--e-global-typography-520c191-font-size) var(--e-global-typography-520c191-font-weight) var(--e-global-typography-520c191-line-height);
+}
+
+.nav_text:hover, .nav_text:focus, .nav_text:active {
+    color: var(--e-global-color-main) !important;
+}
+
 .navbar-toggler {
+    background-color: white;
+}
   /* color:#ffffff !important; */
   background-color: white;
 }

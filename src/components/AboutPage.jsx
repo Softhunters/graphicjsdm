@@ -5,7 +5,7 @@ import AboutContent from './AboutContent/AboutContent'
  const AboutPage = () => {
    return (
      <>
-     <About/>
+     <About />
      <AboutContent/>
      </>
    )
